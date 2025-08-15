@@ -1,6 +1,11 @@
+import HeroHeader from "./components/Hero";
+import PitchSection from "./components/PitchSection";
 
 export default function Home() {
   return (
-   <h1>hello world</h1>
+    <main style={{ height: "100vh" }}>
+     <HeroHeader/>
+     <PitchSection/>
+    </main>
   );
 }
