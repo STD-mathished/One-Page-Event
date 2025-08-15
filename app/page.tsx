@@ -1,4 +1,6 @@
 import Access from "./components/Access";
+import FAQ from "./components/FAQ";
+import Footer from "./components/footer";
 import HeroHeader from "./components/Hero";
 import PitchSection from "./components/PitchSection";
 import Program from "./components/Program";
@@ -18,6 +20,8 @@ export default function Home() {
      <PitchSection/>
      <Program items={items}/>
      <Access mapImage="./plan-paris.webp"/>
+     <FAQ/>
+     <Footer/>
     </main>
   );
 }

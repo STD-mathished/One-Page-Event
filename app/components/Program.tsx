@@ -54,7 +54,7 @@ export default function Program({ items }: itemArray) {
                 <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-black to-transparent" />
 
                 <div
-                    className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
+                    className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory hide-scrollbar pl-8.5"
                     role="list"
                     aria-label="Programme"
                 >
