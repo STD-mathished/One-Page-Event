@@ -5,6 +5,6 @@ type ProgramItem = {
   iconEmoji?: string;      
 };
 
-type Props = {
+type itemArray = {
   items: ProgramItem[];
 };

@@ -66,7 +66,6 @@ export default function HeroHeader({
         playsInline
         poster={posterSrc}
       />
-      {/* Calque sombre + glow au curseur */}
       <div
         ref={layerRef}
         className="absolute inset-0"
