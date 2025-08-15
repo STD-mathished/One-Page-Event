@@ -7,5 +7,4 @@ type ProgramItem = {
 
 type Props = {
   items: ProgramItem[];
-  onSeeAll?: () => void;
 };
