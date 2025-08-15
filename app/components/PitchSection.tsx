@@ -2,7 +2,7 @@
 
 export default function PitchSection() {
   return (
-    <section className="relative w-full py-16 sm:py-24 bg-transparent">
+    <section className="relative w-full py-16 sm:py-24">
       <div className="mx-auto w-full max-w-5xl px-4">
         <div className="mx-auto w-full sm:w-4/5 lg:w-3/5 text-center">
           <p
